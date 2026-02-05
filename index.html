@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
-  <head
-    <meta charset=:"utf-8" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
     <title>Pet Shop</title>
-    <link rel="icon" type="image/png"
-    href="pet_shop_resources/images/favicon.png"/>
+    <link rel="icon" type="image/png" href="pet_shop_resources/images/favicon.png" />
+    <!-- Added a link to style.css based on typical project structure -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- promo div -->
     <div id="promo">
-      <div> Free Shipping</div>
+      <div>Free Shipping</div>
       <div style="display:none;">New toys for puppies</div>
-      <div style="display:none;"> Buy 5 toys and save 30%</div>
+      <div style="display:none;">Buy 5 toys and save 30%</div>
       <div style="display:none;">Same day dispatch</div>
     </div>
     <!-- top menu -->
@@ -44,6 +45,7 @@
           <a href="/">SHOP NOW</a>
         </div>
       </div>
+    </div>
     <!--creating vertical space-->
     <div class="clear spacer v80"></div>
 
@@ -66,15 +68,13 @@
         <img src="pet_shop_resources/images/fish_feature_1.jpg" />
         </a>
       </div>
-
+      <!-- Moved the closing tag of fishFeature to the correct place -->
       <div class="clear spacer v20"></div>
       <div id="fishImage" class="middleImage">
         <img src="pet_shop_resources/images/fish_feature_2.jpg" />
       </div>
-      </div>
-      <div class="spacer v80"></div>
+    </div> <!-- Corrected placement of this closing div -->
+    <div class="spacer v80"></div>
   </div>
-    
-      
   </body>
 </html>
