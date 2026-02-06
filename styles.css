@@ -99,3 +99,77 @@ padding: 15px;
   -ms-transition: all 250ms ease-out;
 }
 
+#toplinks li a:hover {
+    color: #4392f1;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    text-decoration: underline;
+}
+
+#topMenu .logo {
+    float: left;
+    padding-top: 13px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
+#topMenu .logo:hover {
+    color: #4392f1:
+}
+
+.logo {
+    font-family: "Anton", cursive;
+}
+
+#banner {
+    background-image: url("pet_shop_resources/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    text-align: center;
+    padding-top: 300px;
+    color: #333;
+}
+
+#banner .logo {
+    margin-top: 20px;
+}
+
+#banner # action {
+    font-weight: bold;
+    width: 200px
+    margin: 20px auto 0 auto;
+}
+
+    #banner #action a {
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;  
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        background-color: #4392f1;
+    }
+
+    #banner #action a:hover {
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out; 
+        background-color: #f46036;
+        padding: 20px 40px;
+    }
+
+.feature .leftColumn {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.feature . rightColumn{
+    margin-left: 50%;
+    width: 50%
+    text-align: center;
+}
